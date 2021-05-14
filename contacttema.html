@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formular contact</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <form action="alisa@yahoo.com" method="POST">
+      <p>Nume si prenume</p>
+      <input
+        type="text"
+        placeholder="Nume si prenume"
+        utilizator”
+        maxlength="10"
+        required
+      />
+      <p>Cati ani ai?</p>
+      <input type="radio" name="varsta" value="sub 18 ani" /> sub 18 ani
+      <input type="radio" name="varsta" value="peste 18 ani" /> peste 18 ani
+
+      <p>Care este pisica ta preferata</p>
+      <input type="checkbox" name="pisica" value="Abisinian" /> Abisinian
+      <input type="checkbox" name="pisica" value="Devon Rex" /> Devon Rex
+      <input type="checkbox" name="pisica" value="British Shorthair" /> British
+      Shorthair
+
+      <p>Comentarii</p>
+      <textarea name="comentariu" rows="10" cols="30"></textarea>
+
+      <p>Parola</p>
+      <input type="password" required /> <br />
+      <input type="submit" value="Trimite" />
+      <input type="reset" value="Anulare" />
+    </form>
+  </body>
+</html>
